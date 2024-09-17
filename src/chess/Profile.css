@@ -1,0 +1,11 @@
+.profile {
+  position: relative;
+}
+
+.profile small {
+  position: absolute;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

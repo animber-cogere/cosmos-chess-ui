@@ -1,0 +1,32 @@
+@media screen and (min-width: 540px) {
+  .games-wrapper {
+    display: flex;
+    max-width: 100%;
+  }
+
+
+  .games {
+    flex: 1;
+    width: 70vw;
+  }
+
+  .games-actions {
+    margin-left: 3vw;
+    max-width: 25vw;
+  }
+}
+
+.games-actions label {
+  display: block;
+  margin: 1em 0;
+}
+
+.game-actions-buttons {
+  display: flex;
+  margin-top: 0.5em;
+  width: 100%;
+}
+
+.game-actions-buttons button {
+  flex: 1;
+}

@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+
+h1 {
+  float: left;
+  margin-top: 0;
+}
+
+nav {
+  align-items: flex-start;
+  float: right;
+  display: flex;
+}
+
+nav a {
+  display: inline-block;
+  margin: 5px 0;
+  padding: 5px;
+}
+
+nav a {
+  margin-right: 20px;
+  text-align: center;
+}
+
+nav a.active {
+  font-weight: bold;
+}
+
+main {
+  clear: both;
+}
+
+footer {
+  margin-top: 3em;
+  border-top: 1px #ccc solid;
+}

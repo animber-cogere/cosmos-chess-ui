@@ -1,0 +1,11 @@
+
+.MoveList dd,
+.MoveList dt {
+  display: inline-block;
+  margin: 0;
+  padding: 0.25em;
+}
+
+.MoveList dt {
+  width: auto;
+}

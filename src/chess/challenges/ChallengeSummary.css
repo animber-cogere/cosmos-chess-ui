@@ -1,0 +1,42 @@
+
+
+.challengeSummary {
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  display: flex;
+  padding: 0.5em;
+}
+
+.challengeSummary.disabled {
+  background-color: #eee;
+  font-style: italic;
+}
+
+.challengeSummary + .challengeSummary {
+  margin-top: 1em;
+}
+
+.challengeSummary .players {
+  flex: 1;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  text-overflow: ellipsis;
+}
+
+.challengeSummary .actions {
+  margin-left: 1em;
+  padding: 1em;
+}
+
+.challengeSummary small {
+  color: #666;
+}
+
+.challengeSummary p {
+  margin: 0;
+}
+
+.challengeSummary p+p {
+  margin-top: 0.25em;
+}

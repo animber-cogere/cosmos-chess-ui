@@ -1,0 +1,24 @@
+body {
+  margin: 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  height: 40px;
+}
+
+.error,
+.status {
+  padding: 1em;
+}
+
+.error {
+  background-color: #fee;
+  border: 1px solid #f99;
+}
+
+.status {
+  background-color: #eee;
+  border: 1px solid #999;
+}

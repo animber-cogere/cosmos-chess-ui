@@ -1,0 +1,33 @@
+.ratingSummary {
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  display: flex;
+  padding: 0.5em;
+  text-decoration: none;
+}
+
+.ratingSummary:hover {
+  border-color: #aaa;
+  background-color: #f9f9f9;
+}
+
+.ratingSummary + .ratingSummary {
+  margin-top: 1em;
+}
+
+.ratingSummary small {
+  color: #666;
+}
+
+.ratingSummary p {
+  margin: 0;
+}
+
+.ratingSummary p+p {
+  margin-top: 0.25em;
+}
+
+.ratingover {
+  background-color: #eee;
+  font-style: italic;
+}
